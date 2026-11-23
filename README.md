@@ -1,20 +1,24 @@
-# ⚡ Imersão Engenharia de Dados com IA - Alura (Projeto ANAC)
+## Imersão Engenharia de Dados com IA - Alura (Projeto ANAC)
 
 Repositório dedicado ao desenvolvimento do pipeline de dados construído durante a Imersão em Engenharia de Dados da Alura. O projeto consistiu na criação de um ecossistema completo de ETL utilizando dados públicos de aviação da ANAC.
 
-## 🛠️ Ferramentas e Tecnologias
+### Ferramentas e Tecnologias
 * **Ambiente de Desenvolvimento:** Databricks
 * **Linguagem Principal:** Python
 * **Motor de Processamento:** PySpark & Spark SQL
 * **Formatos & Armazenamento:** Delta Lake (Tabelas Delta)
 * **Arquitetura de Dados:** Conceito de Arquitetura Medalhão (Bronze, Silver e Gold)
 
-## 📂 Estrutura do Repositório
+### Estrutura do Repositório
 * `notebooks/`: Arquivos contendo os códigos dos notebooks desenvolvidos e exportados do Databricks.
 * `pipelines/`: Scripts com os fluxos automatizados de transformação de dados.
 * `sql/`: Consultas em Spark SQL contendo os gabaritos e métricas criadas para os desafios.
 
-## 🏆 Desafios Concluídos
+### Desafios Concluídos
 * **Desafio 1 (Camada Bronze):** Ingestão, carga e organização dos dados brutos de voos da ANAC para tabelas iniciais.
 * **Desafio 2 (Camada Silver):** Limpeza, refinamento e tratamento dos dados estruturados utilizando PySpark.
 * **Desafio 3 (Camada Gold):** Criação de tabelas analíticas agregadas via Spark SQL para extração de métricas de negócio e IA.
+
+
+
+<img width="1600" height="789" alt="WhatsApp Image 2026-09-16 at 19 22 51" src="https://github.com/user-attachments/assets/075d0b5c-f0ff-4ff0-aacb-5fbe519b2058" />
